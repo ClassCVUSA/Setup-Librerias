@@ -1,3 +1,2 @@
 # Practica-1
-Configuration files and Installatio of dependencies of OpenCV
-to enable all modules of the opencv and  third-party libraries.
+Configuration file to install OpenCV 4.1.0 on Ubuntu 18.04, dependencies third-party libraries installation to enable all modules of the OpenCV.
