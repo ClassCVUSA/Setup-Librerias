@@ -4,7 +4,7 @@
 echo "--- Installing OpenCV" $version
 
 echo "--- Installing Dependencies"
-#source dependencies.sh
+source dependencies.sh
 
 
 echo "OpenCV from Git Hub installation "
