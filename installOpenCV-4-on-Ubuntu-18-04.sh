@@ -1,5 +1,6 @@
 #!/bin/bash
 
+#https://git.kaloncouture.com/lip/OpenCV-Extra/src/branch/master/modules
 
 echo "--- Installing OpenCV" $version
 
@@ -81,7 +82,8 @@ sudo apt -y install libgoogle-glog-dev libgflags-dev
 sudo apt -y install libgphoto2-dev libeigen3-dev libhdf5-dev doxygen
 sudo apt -y install libtesseract-dev tesseract-ocr-eng tesseract-ocr-spa libtesseract4
 sudo apt -y install libleptonica-dev liblept5  
-sudo apt -y install -y libopenexr-dev openexr
+sudo apt -y install libopenexr-dev openexr
+sudo apt -y install libogre-1.9-dev
 sudo apt -y install libcmrt-dev libcmrt1
 sudo apt -y install libgdal-dev
 sudo apt -y install libantlr-dev
@@ -162,4 +164,3 @@ source ~/.bashrc
 ###### echo 'PKG_CONFIG_PATH=$PKG_CONFIG_PATH:/usr/local/lib/pkgconfig' | sudo tee --append ~/etc/.bashrc 
 #echo 'export PKG_CONFIG_PATH' | sudo tee --append ~/.bashrc
 #source ~/.bashrc
-
